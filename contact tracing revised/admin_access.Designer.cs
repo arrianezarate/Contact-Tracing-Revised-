@@ -116,6 +116,7 @@
             this.btn_Check.TabIndex = 2;
             this.btn_Check.Text = "Check";
             this.btn_Check.UseVisualStyleBackColor = false;
+            this.btn_Check.Click += new System.EventHandler(this.btn_Check_Click);
             // 
             // admin_access
             // 

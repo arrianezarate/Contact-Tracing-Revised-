@@ -221,7 +221,7 @@
             this.txtbox_MiddleName.Name = "txtbox_MiddleName";
             this.txtbox_MiddleName.Size = new System.Drawing.Size(131, 23);
             this.txtbox_MiddleName.TabIndex = 12;
-            this.txtbox_MiddleName.Text = "N/A";
+            this.txtbox_MiddleName.Text = "NA";
             this.txtbox_MiddleName.Enter += new System.EventHandler(this.txtbox_MiddleName_Enter);
             this.txtbox_MiddleName.Leave += new System.EventHandler(this.txtbox_MiddleName_Leave);
             // 

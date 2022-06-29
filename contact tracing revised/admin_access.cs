@@ -32,5 +32,42 @@ namespace contact_tracing_revised
             all_records listallrecords = new all_records();
             listallrecords.ShowDialog();
         }
+
+        private void btn_Check_Click(object sender, EventArgs e)
+        {
+            List<string> ByDate = new List<string>();
+            string Date = SelectDate.Text;
+            int results = 0;
+            var txtlist = Directory.EnumerateFiles(@"C:\Users\arriane\source\repos\contact tracing revised\lists");
+            foreach (string file in txtlist)
+            {
+                string allcontents = File.ReadAllText(file);
+                if (allcontents.Contains(Date))
+                {
+                    ByDate.Add(allcontents);
+                    results++;
+                    continue;
+                }
+            }
+            if (results == 0)
+            {
+                MessageBox.Show("The list for the selected date is empty.");
+            }
+            else
+            {
+                StreamWriter file = new StreamWriter(@"C:\Users\arriane\source\repos\contact tracing revised\lists\by date\records(by date).txt");
+                foreach (string contents in ByDate)
+                {
+                    file.WriteLine(contents);
+                }
+                file.Close();
+                MessageBox.Show("There are " + results + " record(s) on the selected date.");
+                if (MessageBox.Show("Confirm", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    by_date bydate = new by_date();
+                    bydate.ShowDialog();
+                }
+            }
+        }
     }
 }

@@ -30,7 +30,7 @@ namespace contact_tracing_revised
 
             txtbox_FirstName.Text = "First Name";
             txtbox_FirstName.ForeColor = Color.Silver;
-            txtbox_MiddleName.Text = "N/A";
+            txtbox_MiddleName.Text = "NA";
             txtbox_MiddleName.ForeColor = Color.Silver;
             txtbox_LastName.Text = "Last name";
             txtbox_LastName.ForeColor = Color.Silver;
@@ -77,7 +77,7 @@ namespace contact_tracing_revised
 
         private void txtbox_MiddleName_Enter(object sender, EventArgs e)
         {
-            if (txtbox_MiddleName.Text == "N/A")
+            if (txtbox_MiddleName.Text == "NA")
             {
                 txtbox_MiddleName.Text = "";
                 txtbox_MiddleName.ForeColor = Color.Black;
@@ -88,7 +88,7 @@ namespace contact_tracing_revised
         {
             if (txtbox_MiddleName.Text == "")
             {
-                txtbox_MiddleName.Text = "N/A";
+                txtbox_MiddleName.Text = "NA";
                 txtbox_MiddleName.ForeColor = Color.Silver;
             }
         }

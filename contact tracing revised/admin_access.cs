@@ -38,7 +38,7 @@ namespace contact_tracing_revised
             List<string> ByDate = new List<string>();
             string Date = SelectDate.Text;
             int results = 0;
-            var txtlist = Directory.EnumerateFiles(@"C:\Users\arriane\source\repos\contact tracing revised\lists");
+            var txtlist = Directory.EnumerateFiles(@"C:\Users\arriane\source\repos\Contact-Tracing-Revisedd\lists");
             foreach (string file in txtlist)
             {
                 string allcontents = File.ReadAllText(file);
@@ -55,7 +55,7 @@ namespace contact_tracing_revised
             }
             else
             {
-                StreamWriter file = new StreamWriter(@"C:\Users\arriane\source\repos\contact tracing revised\lists\by date\records(by date).txt");
+                StreamWriter file = new StreamWriter(@"C:\Users\arriane\source\repos\Contact-Tracing-Revisedd\lists\by date\records(by date).txt");
                 foreach (string contents in ByDate)
                 {
                     file.WriteLine(contents);

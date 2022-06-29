@@ -15,7 +15,7 @@ namespace contact_tracing_revised
         public by_date()
         {
             InitializeComponent();
-            var recordselectedDate = Directory.GetFiles(@"C:\Users\arriane\source\repos\contact tracing revised\lists\by date\");
+            var recordselectedDate = Directory.GetFiles(@"C:\Users\arriane\source\repos\Contact-Tracing-Revisedd\lists\by date\");
             foreach (string file in recordselectedDate)
             {
                 string dates = File.ReadAllText(file);

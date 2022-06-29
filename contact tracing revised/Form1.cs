@@ -9,7 +9,7 @@ namespace contact_tracing_revised
 
         private void btn_Finish_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\arriane\source\repos\contact tracing revised\lists\" + txtbox_LastName.Text + ", " + txtbox_FirstName.Text + ", " + txtbox_MiddleName.Text + ".txt", true);
+            StreamWriter file = new StreamWriter(@"C:\Users\arriane\source\repos\Contact-Tracing-Revisedd\lists\" + txtbox_LastName.Text + ", " + txtbox_FirstName.Text + ", " + txtbox_MiddleName.Text + ".txt", true);
             file.WriteLine("First Name - " + txtbox_FirstName.Text);
             file.WriteLine("Middle Name - " + txtbox_MiddleName.Text);
             file.WriteLine("Last Name - " + txtbox_LastName.Text);

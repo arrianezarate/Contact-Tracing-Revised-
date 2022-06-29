@@ -19,3 +19,24 @@ C:\Users\arriane\source\repos\contact tracing revised\contact tracing revised\ob
 C:\Users\arriane\source\repos\contact tracing revised\contact tracing revised\obj\Debug\net6.0-windows\contact tracing revised.pdb
 C:\Users\arriane\source\repos\contact tracing revised\contact tracing revised\obj\Debug\net6.0-windows\contact tracing revised.genruntimeconfig.cache
 C:\Users\arriane\source\repos\contact tracing revised\contact tracing revised\obj\Debug\net6.0-windows\ref\contact tracing revised.dll
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\bin\Debug\net6.0-windows\contact tracing revised.exe
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\bin\Debug\net6.0-windows\contact tracing revised.deps.json
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\bin\Debug\net6.0-windows\contact tracing revised.runtimeconfig.json
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\bin\Debug\net6.0-windows\contact tracing revised.dll
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\bin\Debug\net6.0-windows\contact tracing revised.pdb
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\contact tracing revised.csproj.AssemblyReference.cache
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\contact_tracing_revised.Admin.resources
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\contact_tracing_revised.admin_access.resources
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\contact_tracing_revised.all_records.resources
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\contact_tracing_revised.by_date.resources
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\contact_tracing_revised.ContactTracingForm.resources
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\contact tracing revised.csproj.GenerateResource.cache
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\contact tracing revised.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\contact tracing revised.AssemblyInfoInputs.cache
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\contact tracing revised.AssemblyInfo.cs
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\contact tracing revised.csproj.CoreCompileInputs.cache
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\contact tracing revised.dll
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\refint\contact tracing revised.dll
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\contact tracing revised.pdb
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\contact tracing revised.genruntimeconfig.cache
+C:\Users\arriane\Source\Repos\Contact-Tracing-Revisedd\contact tracing revised\obj\Debug\net6.0-windows\ref\contact tracing revised.dll

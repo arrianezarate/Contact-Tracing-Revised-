@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arriane\\source\\repos\\contact tracing revised\\contact tracing revised\\contact tracing revised.csproj",
+      "projectUniqueName": "C:\\Users\\arriane\\Source\\Repos\\Contact-Tracing-Revisedd\\contact tracing revised\\contact tracing revised.csproj",
       "projectName": "contact tracing revised",
-      "projectPath": "C:\\Users\\arriane\\source\\repos\\contact tracing revised\\contact tracing revised\\contact tracing revised.csproj",
+      "projectPath": "C:\\Users\\arriane\\Source\\Repos\\Contact-Tracing-Revisedd\\contact tracing revised\\contact tracing revised.csproj",
       "packagesPath": "C:\\Users\\arriane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arriane\\source\\repos\\contact tracing revised\\contact tracing revised\\obj\\",
+      "outputPath": "C:\\Users\\arriane\\Source\\Repos\\Contact-Tracing-Revisedd\\contact tracing revised\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arriane\\AppData\\Roaming\\NuGet\\NuGet.Config",

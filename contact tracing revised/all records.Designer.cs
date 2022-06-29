@@ -46,6 +46,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(210)))), ((int)(((byte)(208)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lbl_Allrecords);

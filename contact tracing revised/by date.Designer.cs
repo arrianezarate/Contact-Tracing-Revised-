@@ -46,11 +46,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(221)))), ((int)(((byte)(231)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lbl_Recordsbydate);
             this.Name = "by_date";
-            this.Text = "by_date";
+            this.Text = "By Date";
             this.Load += new System.EventHandler(this.by_date_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

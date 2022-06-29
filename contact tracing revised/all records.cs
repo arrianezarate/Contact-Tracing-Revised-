@@ -15,7 +15,7 @@ namespace contact_tracing_revised
         public all_records()
         {
             InitializeComponent();
-            var allRecords = Directory.GetFiles(@"C:\Users\arriane\source\repos\contact tracing revised\lists");
+            var allRecords = Directory.GetFiles(@"C:\Users\arriane\source\repos\Contact-Tracing-Revisedd\lists");
             foreach (var file in allRecords)
             {
                 string allcontents = File.ReadAllText(file);

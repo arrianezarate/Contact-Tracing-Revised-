@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_Allrecords = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // lbl_Allrecords
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(157)))), ((int)(((byte)(192)))));
-            this.label1.Location = new System.Drawing.Point(21, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 23);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "All records\r\n";
+            this.lbl_Allrecords.AutoSize = true;
+            this.lbl_Allrecords.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Allrecords.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(157)))), ((int)(((byte)(192)))));
+            this.lbl_Allrecords.Location = new System.Drawing.Point(21, 23);
+            this.lbl_Allrecords.Name = "lbl_Allrecords";
+            this.lbl_Allrecords.Size = new System.Drawing.Size(98, 23);
+            this.lbl_Allrecords.TabIndex = 2;
+            this.lbl_Allrecords.Text = "All records\r\n";
             // 
             // all_records
             // 
@@ -48,7 +48,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(210)))), ((int)(((byte)(208)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_Allrecords);
             this.Name = "all_records";
             this.Text = "All Records";
             this.ResumeLayout(false);
@@ -58,6 +58,6 @@
 
         #endregion
 
-        private Label label1;
+        private Label lbl_Allrecords;
     }
 }

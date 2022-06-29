@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbl_Recordsbydate = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label2
+            // lbl_Recordsbydate
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(157)))), ((int)(((byte)(192)))));
-            this.label2.Location = new System.Drawing.Point(21, 20);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(163, 23);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Records (by date)\r\n";
+            this.lbl_Recordsbydate.AutoSize = true;
+            this.lbl_Recordsbydate.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Recordsbydate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(157)))), ((int)(((byte)(192)))));
+            this.lbl_Recordsbydate.Location = new System.Drawing.Point(21, 20);
+            this.lbl_Recordsbydate.Name = "lbl_Recordsbydate";
+            this.lbl_Recordsbydate.Size = new System.Drawing.Size(163, 23);
+            this.lbl_Recordsbydate.TabIndex = 3;
+            this.lbl_Recordsbydate.Text = "Records (by date)\r\n";
             // 
             // by_date
             // 
@@ -48,9 +48,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(221)))), ((int)(((byte)(231)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbl_Recordsbydate);
             this.Name = "by_date";
             this.Text = "by_date";
+            this.Load += new System.EventHandler(this.by_date_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -58,6 +59,6 @@
 
         #endregion
 
-        private Label label2;
+        private Label lbl_Recordsbydate;
     }
 }

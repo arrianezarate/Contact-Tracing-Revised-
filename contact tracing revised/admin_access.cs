@@ -26,5 +26,10 @@ namespace contact_tracing_revised
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

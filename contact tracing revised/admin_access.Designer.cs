@@ -28,93 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.btn_Open = new System.Windows.Forms.Button();
+            this.lbl_AllRecords = new System.Windows.Forms.Label();
+            this.pnl_AllRecords = new System.Windows.Forms.Panel();
+            this.SelectDate = new System.Windows.Forms.DateTimePicker();
+            this.pnl_SelectDate = new System.Windows.Forms.Panel();
+            this.lbl_ByDate = new System.Windows.Forms.Label();
+            this.btn_Check = new System.Windows.Forms.Button();
+            this.pnl_AllRecords.SuspendLayout();
+            this.pnl_SelectDate.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_Open
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(157)))), ((int)(((byte)(192)))));
-            this.button1.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(40, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 49);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Open";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_Open.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(157)))), ((int)(((byte)(192)))));
+            this.btn_Open.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Open.ForeColor = System.Drawing.Color.White;
+            this.btn_Open.Location = new System.Drawing.Point(40, 12);
+            this.btn_Open.Name = "btn_Open";
+            this.btn_Open.Size = new System.Drawing.Size(135, 49);
+            this.btn_Open.TabIndex = 0;
+            this.btn_Open.Text = "Open";
+            this.btn_Open.UseVisualStyleBackColor = false;
+            this.btn_Open.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label1
+            // lbl_AllRecords
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Berlin Sans FB Demi", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(157)))), ((int)(((byte)(192)))));
-            this.label1.Location = new System.Drawing.Point(51, 76);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 24);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "All records";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lbl_AllRecords.AutoSize = true;
+            this.lbl_AllRecords.Font = new System.Drawing.Font("Berlin Sans FB Demi", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_AllRecords.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(157)))), ((int)(((byte)(192)))));
+            this.lbl_AllRecords.Location = new System.Drawing.Point(51, 76);
+            this.lbl_AllRecords.Name = "lbl_AllRecords";
+            this.lbl_AllRecords.Size = new System.Drawing.Size(111, 24);
+            this.lbl_AllRecords.TabIndex = 1;
+            this.lbl_AllRecords.Text = "All records";
+            this.lbl_AllRecords.Click += new System.EventHandler(this.label1_Click);
             // 
-            // panel1
+            // pnl_AllRecords
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(234)))), ((int)(((byte)(140)))));
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(211, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(216, 125);
-            this.panel1.TabIndex = 2;
+            this.pnl_AllRecords.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(234)))), ((int)(((byte)(140)))));
+            this.pnl_AllRecords.Controls.Add(this.lbl_AllRecords);
+            this.pnl_AllRecords.Controls.Add(this.btn_Open);
+            this.pnl_AllRecords.Location = new System.Drawing.Point(211, 12);
+            this.pnl_AllRecords.Name = "pnl_AllRecords";
+            this.pnl_AllRecords.Size = new System.Drawing.Size(216, 125);
+            this.pnl_AllRecords.TabIndex = 2;
             // 
-            // dateTimePicker1
+            // SelectDate
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimePicker1.Location = new System.Drawing.Point(14, 57);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(230, 27);
-            this.dateTimePicker1.TabIndex = 3;
+            this.SelectDate.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SelectDate.Location = new System.Drawing.Point(14, 57);
+            this.SelectDate.Name = "SelectDate";
+            this.SelectDate.Size = new System.Drawing.Size(230, 27);
+            this.SelectDate.TabIndex = 3;
             // 
-            // panel2
+            // pnl_SelectDate
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(234)))), ((int)(((byte)(140)))));
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.dateTimePicker1);
-            this.panel2.Location = new System.Drawing.Point(91, 210);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(453, 141);
-            this.panel2.TabIndex = 3;
+            this.pnl_SelectDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(234)))), ((int)(((byte)(140)))));
+            this.pnl_SelectDate.Controls.Add(this.lbl_ByDate);
+            this.pnl_SelectDate.Controls.Add(this.btn_Check);
+            this.pnl_SelectDate.Controls.Add(this.SelectDate);
+            this.pnl_SelectDate.Location = new System.Drawing.Point(91, 210);
+            this.pnl_SelectDate.Name = "pnl_SelectDate";
+            this.pnl_SelectDate.Size = new System.Drawing.Size(453, 141);
+            this.pnl_SelectDate.TabIndex = 3;
             // 
-            // button2
+            // lbl_ByDate
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(157)))), ((int)(((byte)(192)))));
-            this.button2.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(278, 35);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 49);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Check";
-            this.button2.UseVisualStyleBackColor = false;
+            this.lbl_ByDate.AutoSize = true;
+            this.lbl_ByDate.Font = new System.Drawing.Font("Berlin Sans FB Demi", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_ByDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(157)))), ((int)(((byte)(192)))));
+            this.lbl_ByDate.Location = new System.Drawing.Point(256, 87);
+            this.lbl_ByDate.Name = "lbl_ByDate";
+            this.lbl_ByDate.Size = new System.Drawing.Size(177, 24);
+            this.lbl_ByDate.TabIndex = 2;
+            this.lbl_ByDate.Text = "Records (by date)";
+            this.lbl_ByDate.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label2
+            // btn_Check
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Berlin Sans FB Demi", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(157)))), ((int)(((byte)(192)))));
-            this.label2.Location = new System.Drawing.Point(256, 87);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(177, 24);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Records (by date)";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.btn_Check.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(157)))), ((int)(((byte)(192)))));
+            this.btn_Check.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Check.ForeColor = System.Drawing.Color.White;
+            this.btn_Check.Location = new System.Drawing.Point(278, 35);
+            this.btn_Check.Name = "btn_Check";
+            this.btn_Check.Size = new System.Drawing.Size(135, 49);
+            this.btn_Check.TabIndex = 2;
+            this.btn_Check.Text = "Check";
+            this.btn_Check.UseVisualStyleBackColor = false;
             // 
             // admin_access
             // 
@@ -122,26 +123,26 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(212)))), ((int)(((byte)(240)))));
             this.ClientSize = new System.Drawing.Size(631, 405);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnl_SelectDate);
+            this.Controls.Add(this.pnl_AllRecords);
             this.Name = "admin_access";
             this.Text = "Admin Access";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.pnl_AllRecords.ResumeLayout(false);
+            this.pnl_AllRecords.PerformLayout();
+            this.pnl_SelectDate.ResumeLayout(false);
+            this.pnl_SelectDate.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Button button1;
-        private Label label1;
-        private Panel panel1;
-        private DateTimePicker dateTimePicker1;
-        private Panel panel2;
-        private Label label2;
-        private Button button2;
+        private Button btn_Open;
+        private Label lbl_AllRecords;
+        private Panel pnl_AllRecords;
+        private DateTimePicker SelectDate;
+        private Panel pnl_SelectDate;
+        private Label lbl_ByDate;
+        private Button btn_Check;
     }
 }

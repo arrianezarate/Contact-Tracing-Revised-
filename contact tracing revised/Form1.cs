@@ -254,5 +254,11 @@ namespace contact_tracing_revised
                 txtbox_Symptoms.ForeColor = Color.Silver;
             }
         }
+
+        private void btn_Admin_Click(object sender, EventArgs e)
+        {
+            Admin show = new Admin();
+            show.ShowDialog();
+        }
     }
 }

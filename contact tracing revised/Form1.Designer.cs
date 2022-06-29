@@ -80,6 +80,7 @@
             this.btn_Admin.TabIndex = 1;
             this.btn_Admin.Text = "Admin";
             this.btn_Admin.UseVisualStyleBackColor = false;
+            this.btn_Admin.Click += new System.EventHandler(this.btn_Admin_Click);
             // 
             // lbl_ContactTracing
             // 

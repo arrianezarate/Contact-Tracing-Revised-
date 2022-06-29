@@ -33,6 +33,7 @@
             this.txtbox_Password = new System.Windows.Forms.TextBox();
             this.lbl_Username = new System.Windows.Forms.Label();
             this.lbl_Password = new System.Windows.Forms.Label();
+            this.btn_LogIn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_Admin
@@ -54,15 +55,20 @@
             this.txtbox_Username.Size = new System.Drawing.Size(150, 23);
             this.txtbox_Username.TabIndex = 2;
             this.txtbox_Username.Text = "Enter your username";
+            this.txtbox_Username.Enter += new System.EventHandler(this.txtbox_Username_Enter);
+            this.txtbox_Username.Leave += new System.EventHandler(this.txtbox_Username_Leave);
             // 
             // txtbox_Password
             // 
             this.txtbox_Password.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtbox_Password.Location = new System.Drawing.Point(527, 134);
             this.txtbox_Password.Name = "txtbox_Password";
+            this.txtbox_Password.PasswordChar = '•';
             this.txtbox_Password.Size = new System.Drawing.Size(150, 23);
             this.txtbox_Password.TabIndex = 3;
             this.txtbox_Password.Text = "Enter your password";
+            this.txtbox_Password.Enter += new System.EventHandler(this.txtbox_Password_Enter);
+            this.txtbox_Password.Leave += new System.EventHandler(this.txtbox_Password_Leave);
             // 
             // lbl_Username
             // 
@@ -86,12 +92,26 @@
             this.lbl_Password.TabIndex = 5;
             this.lbl_Password.Text = "Password";
             // 
+            // btn_LogIn
+            // 
+            this.btn_LogIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btn_LogIn.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_LogIn.ForeColor = System.Drawing.Color.White;
+            this.btn_LogIn.Location = new System.Drawing.Point(548, 173);
+            this.btn_LogIn.Name = "btn_LogIn";
+            this.btn_LogIn.Size = new System.Drawing.Size(97, 32);
+            this.btn_LogIn.TabIndex = 6;
+            this.btn_LogIn.Text = "LOGIN";
+            this.btn_LogIn.UseVisualStyleBackColor = false;
+            this.btn_LogIn.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(157)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(744, 240);
+            this.Controls.Add(this.btn_LogIn);
             this.Controls.Add(this.lbl_Password);
             this.Controls.Add(this.lbl_Username);
             this.Controls.Add(this.txtbox_Password);
@@ -111,5 +131,6 @@
         private TextBox txtbox_Password;
         private Label lbl_Username;
         private Label lbl_Password;
+        private Button btn_LogIn;
     }
 }

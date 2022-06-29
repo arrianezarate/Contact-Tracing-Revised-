@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.pnl_bottom = new System.Windows.Forms.Panel();
-            this.lbl_ContactTracing = new System.Windows.Forms.Label();
             this.btn_Admin = new System.Windows.Forms.Button();
+            this.lbl_ContactTracing = new System.Windows.Forms.Label();
             this.lbl_FirstName = new System.Windows.Forms.Label();
             this.lbl_MiddleName = new System.Windows.Forms.Label();
             this.lbl_LastName = new System.Windows.Forms.Label();
@@ -69,17 +69,6 @@
             this.pnl_bottom.Size = new System.Drawing.Size(800, 83);
             this.pnl_bottom.TabIndex = 0;
             // 
-            // lbl_ContactTracing
-            // 
-            this.lbl_ContactTracing.AutoSize = true;
-            this.lbl_ContactTracing.Font = new System.Drawing.Font("Impact", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_ContactTracing.ForeColor = System.Drawing.Color.White;
-            this.lbl_ContactTracing.Location = new System.Drawing.Point(55, 14);
-            this.lbl_ContactTracing.Name = "lbl_ContactTracing";
-            this.lbl_ContactTracing.Size = new System.Drawing.Size(370, 60);
-            this.lbl_ContactTracing.TabIndex = 0;
-            this.lbl_ContactTracing.Text = "CONTACT TRACING";
-            // 
             // btn_Admin
             // 
             this.btn_Admin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(212)))), ((int)(((byte)(240)))));
@@ -91,6 +80,17 @@
             this.btn_Admin.TabIndex = 1;
             this.btn_Admin.Text = "Admin";
             this.btn_Admin.UseVisualStyleBackColor = false;
+            // 
+            // lbl_ContactTracing
+            // 
+            this.lbl_ContactTracing.AutoSize = true;
+            this.lbl_ContactTracing.Font = new System.Drawing.Font("Impact", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_ContactTracing.ForeColor = System.Drawing.Color.White;
+            this.lbl_ContactTracing.Location = new System.Drawing.Point(55, 14);
+            this.lbl_ContactTracing.Name = "lbl_ContactTracing";
+            this.lbl_ContactTracing.Size = new System.Drawing.Size(370, 60);
+            this.lbl_ContactTracing.TabIndex = 0;
+            this.lbl_ContactTracing.Text = "CONTACT TRACING";
             // 
             // lbl_FirstName
             // 
@@ -166,6 +166,8 @@
             this.txtbox_FirstName.Size = new System.Drawing.Size(131, 23);
             this.txtbox_FirstName.TabIndex = 7;
             this.txtbox_FirstName.Text = "First Name";
+            this.txtbox_FirstName.TextChanged += new System.EventHandler(this.txtbox_FirstName_TextChanged);
+            this.txtbox_FirstName.Enter += new System.EventHandler(this.txtbox_FirstName_Enter);
             // 
             // txtbox_Gender
             // 
@@ -324,6 +326,7 @@
             this.btn_Finish.TabIndex = 2;
             this.btn_Finish.Text = "Finish";
             this.btn_Finish.UseVisualStyleBackColor = false;
+            this.btn_Finish.Click += new System.EventHandler(this.btn_Finish_Click);
             // 
             // formDate
             // 

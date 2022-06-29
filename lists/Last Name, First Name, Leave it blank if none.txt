@@ -1,0 +1,12 @@
+First name - First Name
+Middle name - Leave it blank if none
+Last name - Last Name
+Age - Age
+Birth date - Month, Date, Year
+Mobile No. - Mobile No.
+Email - @mail.com
+Gender - M/F
+Address - Street, Barangay, City. Province, Zip Code
+Traveled recently? - Yes/No
+Date - Wednesday, June 29, 2022
+Symptoms? - Yes/No

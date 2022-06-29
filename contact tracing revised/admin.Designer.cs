@@ -48,17 +48,21 @@
             // 
             // txtbox_Username
             // 
+            this.txtbox_Username.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtbox_Username.Location = new System.Drawing.Point(527, 71);
             this.txtbox_Username.Name = "txtbox_Username";
             this.txtbox_Username.Size = new System.Drawing.Size(150, 23);
             this.txtbox_Username.TabIndex = 2;
+            this.txtbox_Username.Text = "Enter your username";
             // 
             // txtbox_Password
             // 
+            this.txtbox_Password.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtbox_Password.Location = new System.Drawing.Point(527, 134);
             this.txtbox_Password.Name = "txtbox_Password";
             this.txtbox_Password.Size = new System.Drawing.Size(150, 23);
             this.txtbox_Password.TabIndex = 3;
+            this.txtbox_Password.Text = "Enter your password";
             // 
             // lbl_Username
             // 

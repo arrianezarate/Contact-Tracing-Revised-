@@ -287,7 +287,8 @@
             this.txtbox_Address.Size = new System.Drawing.Size(363, 23);
             this.txtbox_Address.TabIndex = 18;
             this.txtbox_Address.Text = "Street, Barangay, City. Province, Zip Code";
-            this.txtbox_Address.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            this.txtbox_Address.Enter += new System.EventHandler(this.txtbox_Address_Enter);
+            this.txtbox_Address.Leave += new System.EventHandler(this.txtbox_Address_Leave);
             // 
             // txtbox_Email
             // 
@@ -297,6 +298,8 @@
             this.txtbox_Email.Size = new System.Drawing.Size(184, 23);
             this.txtbox_Email.TabIndex = 19;
             this.txtbox_Email.Text = "@mail.com";
+            this.txtbox_Email.Enter += new System.EventHandler(this.txtbox_Email_Enter);
+            this.txtbox_Email.Leave += new System.EventHandler(this.txtbox_Email_Leave);
             // 
             // txtbox_Mobile
             // 
@@ -306,6 +309,8 @@
             this.txtbox_Mobile.Size = new System.Drawing.Size(131, 23);
             this.txtbox_Mobile.TabIndex = 20;
             this.txtbox_Mobile.Text = "Mobile No.";
+            this.txtbox_Mobile.Enter += new System.EventHandler(this.txtbox_Mobile_Enter);
+            this.txtbox_Mobile.Leave += new System.EventHandler(this.txtbox_Mobile_Leave);
             // 
             // txtbox_Travel
             // 
@@ -315,6 +320,8 @@
             this.txtbox_Travel.Size = new System.Drawing.Size(46, 23);
             this.txtbox_Travel.TabIndex = 21;
             this.txtbox_Travel.Text = "Yes/No";
+            this.txtbox_Travel.Enter += new System.EventHandler(this.txtbox_Travel_Enter);
+            this.txtbox_Travel.Leave += new System.EventHandler(this.txtbox_Travel_Leave);
             // 
             // txtbox_Symptoms
             // 
@@ -324,6 +331,8 @@
             this.txtbox_Symptoms.Size = new System.Drawing.Size(44, 23);
             this.txtbox_Symptoms.TabIndex = 22;
             this.txtbox_Symptoms.Text = "Yes/No";
+            this.txtbox_Symptoms.Enter += new System.EventHandler(this.txtbox_Symptoms_Enter);
+            this.txtbox_Symptoms.Leave += new System.EventHandler(this.txtbox_Symptoms_Leave);
             // 
             // btn_Finish
             // 

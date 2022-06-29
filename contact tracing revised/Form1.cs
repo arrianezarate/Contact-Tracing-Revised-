@@ -7,11 +7,6 @@ namespace contact_tracing_revised
             InitializeComponent();
         }
 
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btn_Finish_Click(object sender, EventArgs e)
         {
             StreamWriter file = new StreamWriter(@"C:\Users\arriane\source\repos\contact tracing revised\lists\" + txtbox_LastName.Text + ", " + txtbox_FirstName.Text + ", " + txtbox_MiddleName.Text + ".txt", true);
@@ -167,6 +162,96 @@ namespace contact_tracing_revised
             {
                 txtbox_Gender.Text = "M/F";
                 txtbox_Gender.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtbox_Address_Enter(object sender, EventArgs e)
+        {
+            if (txtbox_Address.Text == "Street, Barangay, City. Province, Zip Code")
+            {
+                txtbox_Address.Text = "";
+                txtbox_Address.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtbox_Address_Leave(object sender, EventArgs e)
+        {
+            if (txtbox_Address.Text == "")
+            {
+                txtbox_Address.Text = "Street, Barangay, City. Province, Zip Code";
+                txtbox_Address.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtbox_Email_Enter(object sender, EventArgs e)
+        {
+            if (txtbox_Email.Text == "@mail.com")
+            {
+                txtbox_Email.Text = "";
+                txtbox_Email.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtbox_Email_Leave(object sender, EventArgs e)
+        {
+            if (txtbox_Email.Text == "")
+            {
+                txtbox_Email.Text = "@mail.com";
+                txtbox_Email.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtbox_Mobile_Enter(object sender, EventArgs e)
+        {
+            if (txtbox_Mobile.Text == "Mobile No.")
+            {
+                txtbox_Mobile.Text = "";
+                txtbox_Mobile.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtbox_Mobile_Leave(object sender, EventArgs e)
+        {
+            if (txtbox_Mobile.Text == "")
+            {
+                txtbox_Mobile.Text = "Mobile No.";
+                txtbox_Mobile.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtbox_Travel_Enter(object sender, EventArgs e)
+        {
+            if (txtbox_Travel.Text == "Yes/No")
+            {
+                txtbox_Travel.Text = "";
+                txtbox_Travel.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtbox_Travel_Leave(object sender, EventArgs e)
+        {
+            if (txtbox_Travel.Text == "")
+            {
+                txtbox_Travel.Text = "Yes/No";
+                txtbox_Travel.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtbox_Symptoms_Enter(object sender, EventArgs e)
+        {
+            if (txtbox_Symptoms.Text == "Yes/No")
+            {
+                txtbox_Symptoms.Text = "";
+                txtbox_Symptoms.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtbox_Symptoms_Leave(object sender, EventArgs e)
+        {
+            if (txtbox_Symptoms.Text == "")
+            {
+                txtbox_Symptoms.Text = "Yes/No";
+                txtbox_Symptoms.ForeColor = Color.Silver;
             }
         }
     }

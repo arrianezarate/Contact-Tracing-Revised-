@@ -1,6 +1,6 @@
 ﻿namespace contact_tracing_revised
 {
-    partial class Form1
+    partial class ContactTracingForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,324 +28,324 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.panel1.SuspendLayout();
+            this.pnl_bottom = new System.Windows.Forms.Panel();
+            this.lbl_ContactTracing = new System.Windows.Forms.Label();
+            this.btn_Admin = new System.Windows.Forms.Button();
+            this.lbl_FirstName = new System.Windows.Forms.Label();
+            this.lbl_MiddleName = new System.Windows.Forms.Label();
+            this.lbl_LastName = new System.Windows.Forms.Label();
+            this.lbl_Age = new System.Windows.Forms.Label();
+            this.lbl_BirthDate = new System.Windows.Forms.Label();
+            this.lbl_Gender = new System.Windows.Forms.Label();
+            this.txtbox_FirstName = new System.Windows.Forms.TextBox();
+            this.txtbox_Gender = new System.Windows.Forms.TextBox();
+            this.txtbox_BirthDate = new System.Windows.Forms.TextBox();
+            this.txtbox_Age = new System.Windows.Forms.TextBox();
+            this.txtbox_LastName = new System.Windows.Forms.TextBox();
+            this.txtbox_MiddleName = new System.Windows.Forms.TextBox();
+            this.lbl_Address = new System.Windows.Forms.Label();
+            this.lbl_Email = new System.Windows.Forms.Label();
+            this.lbl_Mobile = new System.Windows.Forms.Label();
+            this.lbl_Travel = new System.Windows.Forms.Label();
+            this.lbl_Symptoms = new System.Windows.Forms.Label();
+            this.txtbox_Address = new System.Windows.Forms.TextBox();
+            this.txtbox_Email = new System.Windows.Forms.TextBox();
+            this.txtbox_Mobile = new System.Windows.Forms.TextBox();
+            this.txtbox_Travel = new System.Windows.Forms.TextBox();
+            this.txtbox_Symptoms = new System.Windows.Forms.TextBox();
+            this.btn_Finish = new System.Windows.Forms.Button();
+            this.formDate = new System.Windows.Forms.DateTimePicker();
+            this.pnl_bottom.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // pnl_bottom
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(195)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 367);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 83);
-            this.panel1.TabIndex = 0;
+            this.pnl_bottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(195)))), ((int)(((byte)(64)))));
+            this.pnl_bottom.Controls.Add(this.btn_Admin);
+            this.pnl_bottom.Controls.Add(this.lbl_ContactTracing);
+            this.pnl_bottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnl_bottom.Location = new System.Drawing.Point(0, 367);
+            this.pnl_bottom.Name = "pnl_bottom";
+            this.pnl_bottom.Size = new System.Drawing.Size(800, 83);
+            this.pnl_bottom.TabIndex = 0;
             // 
-            // label1
+            // lbl_ContactTracing
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Impact", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(55, 14);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(370, 60);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "CONTACT TRACING";
+            this.lbl_ContactTracing.AutoSize = true;
+            this.lbl_ContactTracing.Font = new System.Drawing.Font("Impact", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_ContactTracing.ForeColor = System.Drawing.Color.White;
+            this.lbl_ContactTracing.Location = new System.Drawing.Point(55, 14);
+            this.lbl_ContactTracing.Name = "lbl_ContactTracing";
+            this.lbl_ContactTracing.Size = new System.Drawing.Size(370, 60);
+            this.lbl_ContactTracing.TabIndex = 0;
+            this.lbl_ContactTracing.Text = "CONTACT TRACING";
             // 
-            // button1
+            // btn_Admin
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(212)))), ((int)(((byte)(240)))));
-            this.button1.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(538, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(165, 83);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Admin";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_Admin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(212)))), ((int)(((byte)(240)))));
+            this.btn_Admin.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Admin.ForeColor = System.Drawing.Color.White;
+            this.btn_Admin.Location = new System.Drawing.Point(538, 0);
+            this.btn_Admin.Name = "btn_Admin";
+            this.btn_Admin.Size = new System.Drawing.Size(165, 83);
+            this.btn_Admin.TabIndex = 1;
+            this.btn_Admin.Text = "Admin";
+            this.btn_Admin.UseVisualStyleBackColor = false;
             // 
-            // label2
+            // lbl_FirstName
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(28, 64);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 18);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "First Name";
+            this.lbl_FirstName.AutoSize = true;
+            this.lbl_FirstName.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_FirstName.ForeColor = System.Drawing.Color.White;
+            this.lbl_FirstName.Location = new System.Drawing.Point(28, 64);
+            this.lbl_FirstName.Name = "lbl_FirstName";
+            this.lbl_FirstName.Size = new System.Drawing.Size(80, 18);
+            this.lbl_FirstName.TabIndex = 1;
+            this.lbl_FirstName.Text = "First Name";
             // 
-            // label3
+            // lbl_MiddleName
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(28, 105);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 18);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Middle Name";
+            this.lbl_MiddleName.AutoSize = true;
+            this.lbl_MiddleName.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_MiddleName.ForeColor = System.Drawing.Color.White;
+            this.lbl_MiddleName.Location = new System.Drawing.Point(28, 105);
+            this.lbl_MiddleName.Name = "lbl_MiddleName";
+            this.lbl_MiddleName.Size = new System.Drawing.Size(96, 18);
+            this.lbl_MiddleName.TabIndex = 2;
+            this.lbl_MiddleName.Text = "Middle Name";
             // 
-            // label4
+            // lbl_LastName
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(28, 144);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 18);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Last Name";
+            this.lbl_LastName.AutoSize = true;
+            this.lbl_LastName.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_LastName.ForeColor = System.Drawing.Color.White;
+            this.lbl_LastName.Location = new System.Drawing.Point(28, 144);
+            this.lbl_LastName.Name = "lbl_LastName";
+            this.lbl_LastName.Size = new System.Drawing.Size(80, 18);
+            this.lbl_LastName.TabIndex = 3;
+            this.lbl_LastName.Text = "Last Name";
             // 
-            // label5
+            // lbl_Age
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(28, 187);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 18);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Age";
+            this.lbl_Age.AutoSize = true;
+            this.lbl_Age.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Age.ForeColor = System.Drawing.Color.White;
+            this.lbl_Age.Location = new System.Drawing.Point(28, 187);
+            this.lbl_Age.Name = "lbl_Age";
+            this.lbl_Age.Size = new System.Drawing.Size(35, 18);
+            this.lbl_Age.TabIndex = 4;
+            this.lbl_Age.Text = "Age";
             // 
-            // label6
+            // lbl_BirthDate
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(28, 230);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(76, 18);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Birth Date";
+            this.lbl_BirthDate.AutoSize = true;
+            this.lbl_BirthDate.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_BirthDate.ForeColor = System.Drawing.Color.White;
+            this.lbl_BirthDate.Location = new System.Drawing.Point(28, 230);
+            this.lbl_BirthDate.Name = "lbl_BirthDate";
+            this.lbl_BirthDate.Size = new System.Drawing.Size(76, 18);
+            this.lbl_BirthDate.TabIndex = 5;
+            this.lbl_BirthDate.Text = "Birth Date";
             // 
-            // label7
+            // lbl_Gender
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(28, 271);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(57, 18);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Gender";
+            this.lbl_Gender.AutoSize = true;
+            this.lbl_Gender.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Gender.ForeColor = System.Drawing.Color.White;
+            this.lbl_Gender.Location = new System.Drawing.Point(28, 271);
+            this.lbl_Gender.Name = "lbl_Gender";
+            this.lbl_Gender.Size = new System.Drawing.Size(57, 18);
+            this.lbl_Gender.TabIndex = 6;
+            this.lbl_Gender.Text = "Gender";
             // 
-            // textBox1
+            // txtbox_FirstName
             // 
-            this.textBox1.Location = new System.Drawing.Point(144, 64);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(131, 23);
-            this.textBox1.TabIndex = 7;
+            this.txtbox_FirstName.Location = new System.Drawing.Point(144, 64);
+            this.txtbox_FirstName.Name = "txtbox_FirstName";
+            this.txtbox_FirstName.Size = new System.Drawing.Size(131, 23);
+            this.txtbox_FirstName.TabIndex = 7;
             // 
-            // textBox2
+            // txtbox_Gender
             // 
-            this.textBox2.Location = new System.Drawing.Point(144, 266);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(75, 23);
-            this.textBox2.TabIndex = 8;
+            this.txtbox_Gender.Location = new System.Drawing.Point(144, 266);
+            this.txtbox_Gender.Name = "txtbox_Gender";
+            this.txtbox_Gender.Size = new System.Drawing.Size(75, 23);
+            this.txtbox_Gender.TabIndex = 8;
             // 
-            // textBox3
+            // txtbox_BirthDate
             // 
-            this.textBox3.Location = new System.Drawing.Point(144, 225);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(122, 23);
-            this.textBox3.TabIndex = 9;
+            this.txtbox_BirthDate.Location = new System.Drawing.Point(144, 225);
+            this.txtbox_BirthDate.Name = "txtbox_BirthDate";
+            this.txtbox_BirthDate.Size = new System.Drawing.Size(122, 23);
+            this.txtbox_BirthDate.TabIndex = 9;
             // 
-            // textBox4
+            // txtbox_Age
             // 
-            this.textBox4.Location = new System.Drawing.Point(144, 182);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(44, 23);
-            this.textBox4.TabIndex = 10;
+            this.txtbox_Age.Location = new System.Drawing.Point(144, 182);
+            this.txtbox_Age.Name = "txtbox_Age";
+            this.txtbox_Age.Size = new System.Drawing.Size(44, 23);
+            this.txtbox_Age.TabIndex = 10;
             // 
-            // textBox5
+            // txtbox_LastName
             // 
-            this.textBox5.Location = new System.Drawing.Point(144, 144);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(131, 23);
-            this.textBox5.TabIndex = 11;
+            this.txtbox_LastName.Location = new System.Drawing.Point(144, 144);
+            this.txtbox_LastName.Name = "txtbox_LastName";
+            this.txtbox_LastName.Size = new System.Drawing.Size(131, 23);
+            this.txtbox_LastName.TabIndex = 11;
             // 
-            // textBox6
+            // txtbox_MiddleName
             // 
-            this.textBox6.Location = new System.Drawing.Point(144, 105);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(131, 23);
-            this.textBox6.TabIndex = 12;
+            this.txtbox_MiddleName.Location = new System.Drawing.Point(144, 105);
+            this.txtbox_MiddleName.Name = "txtbox_MiddleName";
+            this.txtbox_MiddleName.Size = new System.Drawing.Size(131, 23);
+            this.txtbox_MiddleName.TabIndex = 12;
             // 
-            // label8
+            // lbl_Address
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(328, 69);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(60, 18);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "Address";
+            this.lbl_Address.AutoSize = true;
+            this.lbl_Address.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Address.ForeColor = System.Drawing.Color.White;
+            this.lbl_Address.Location = new System.Drawing.Point(328, 69);
+            this.lbl_Address.Name = "lbl_Address";
+            this.lbl_Address.Size = new System.Drawing.Size(60, 18);
+            this.lbl_Address.TabIndex = 13;
+            this.lbl_Address.Text = "Address";
             // 
-            // label9
+            // lbl_Email
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(328, 105);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(45, 18);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "Email";
+            this.lbl_Email.AutoSize = true;
+            this.lbl_Email.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Email.ForeColor = System.Drawing.Color.White;
+            this.lbl_Email.Location = new System.Drawing.Point(328, 105);
+            this.lbl_Email.Name = "lbl_Email";
+            this.lbl_Email.Size = new System.Drawing.Size(45, 18);
+            this.lbl_Email.TabIndex = 14;
+            this.lbl_Email.Text = "Email";
             // 
-            // label10
+            // lbl_Mobile
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(328, 144);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(76, 18);
-            this.label10.TabIndex = 15;
-            this.label10.Text = "Mobile No.";
+            this.lbl_Mobile.AutoSize = true;
+            this.lbl_Mobile.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Mobile.ForeColor = System.Drawing.Color.White;
+            this.lbl_Mobile.Location = new System.Drawing.Point(328, 144);
+            this.lbl_Mobile.Name = "lbl_Mobile";
+            this.lbl_Mobile.Size = new System.Drawing.Size(76, 18);
+            this.lbl_Mobile.TabIndex = 15;
+            this.lbl_Mobile.Text = "Mobile No.";
             // 
-            // label11
+            // lbl_Travel
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(328, 187);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(161, 18);
-            this.label11.TabIndex = 16;
-            this.label11.Text = "Did you travel recently?";
+            this.lbl_Travel.AutoSize = true;
+            this.lbl_Travel.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Travel.ForeColor = System.Drawing.Color.White;
+            this.lbl_Travel.Location = new System.Drawing.Point(328, 187);
+            this.lbl_Travel.Name = "lbl_Travel";
+            this.lbl_Travel.Size = new System.Drawing.Size(161, 18);
+            this.lbl_Travel.TabIndex = 16;
+            this.lbl_Travel.Text = "Did you travel recently?";
             // 
-            // label12
+            // lbl_Symptoms
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(328, 225);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(289, 36);
-            this.label12.TabIndex = 17;
-            this.label12.Text = "Do you experience symptoms of COVID-19?\r\n(Flu, Cough, Runny nose, etc.)\r\n";
+            this.lbl_Symptoms.AutoSize = true;
+            this.lbl_Symptoms.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Symptoms.ForeColor = System.Drawing.Color.White;
+            this.lbl_Symptoms.Location = new System.Drawing.Point(328, 225);
+            this.lbl_Symptoms.Name = "lbl_Symptoms";
+            this.lbl_Symptoms.Size = new System.Drawing.Size(289, 36);
+            this.lbl_Symptoms.TabIndex = 17;
+            this.lbl_Symptoms.Text = "Do you experience symptoms of COVID-19?\r\n(Flu, Cough, Runny nose, etc.)\r\n";
             // 
-            // textBox7
+            // txtbox_Address
             // 
-            this.textBox7.Location = new System.Drawing.Point(410, 64);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(363, 23);
-            this.textBox7.TabIndex = 18;
-            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            this.txtbox_Address.Location = new System.Drawing.Point(410, 64);
+            this.txtbox_Address.Name = "txtbox_Address";
+            this.txtbox_Address.Size = new System.Drawing.Size(363, 23);
+            this.txtbox_Address.TabIndex = 18;
+            this.txtbox_Address.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
-            // textBox8
+            // txtbox_Email
             // 
-            this.textBox8.Location = new System.Drawing.Point(410, 105);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(184, 23);
-            this.textBox8.TabIndex = 19;
+            this.txtbox_Email.Location = new System.Drawing.Point(410, 105);
+            this.txtbox_Email.Name = "txtbox_Email";
+            this.txtbox_Email.Size = new System.Drawing.Size(184, 23);
+            this.txtbox_Email.TabIndex = 19;
             // 
-            // textBox9
+            // txtbox_Mobile
             // 
-            this.textBox9.Location = new System.Drawing.Point(410, 144);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(131, 23);
-            this.textBox9.TabIndex = 20;
+            this.txtbox_Mobile.Location = new System.Drawing.Point(410, 144);
+            this.txtbox_Mobile.Name = "txtbox_Mobile";
+            this.txtbox_Mobile.Size = new System.Drawing.Size(131, 23);
+            this.txtbox_Mobile.TabIndex = 20;
             // 
-            // textBox10
+            // txtbox_Travel
             // 
-            this.textBox10.Location = new System.Drawing.Point(495, 182);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(44, 23);
-            this.textBox10.TabIndex = 21;
+            this.txtbox_Travel.Location = new System.Drawing.Point(495, 182);
+            this.txtbox_Travel.Name = "txtbox_Travel";
+            this.txtbox_Travel.Size = new System.Drawing.Size(44, 23);
+            this.txtbox_Travel.TabIndex = 21;
             // 
-            // textBox11
+            // txtbox_Symptoms
             // 
-            this.textBox11.Location = new System.Drawing.Point(623, 225);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(44, 23);
-            this.textBox11.TabIndex = 22;
+            this.txtbox_Symptoms.Location = new System.Drawing.Point(623, 225);
+            this.txtbox_Symptoms.Name = "txtbox_Symptoms";
+            this.txtbox_Symptoms.Size = new System.Drawing.Size(44, 23);
+            this.txtbox_Symptoms.TabIndex = 22;
             // 
-            // button2
+            // btn_Finish
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(212)))), ((int)(((byte)(240)))));
-            this.button2.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(605, 289);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(152, 51);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Finish";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_Finish.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(212)))), ((int)(((byte)(240)))));
+            this.btn_Finish.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Finish.ForeColor = System.Drawing.Color.White;
+            this.btn_Finish.Location = new System.Drawing.Point(605, 289);
+            this.btn_Finish.Name = "btn_Finish";
+            this.btn_Finish.Size = new System.Drawing.Size(152, 51);
+            this.btn_Finish.TabIndex = 2;
+            this.btn_Finish.Text = "Finish";
+            this.btn_Finish.UseVisualStyleBackColor = false;
             // 
-            // dateTimePicker1
+            // formDate
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Berlin Sans FB", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimePicker1.Location = new System.Drawing.Point(524, 22);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(249, 24);
-            this.dateTimePicker1.TabIndex = 23;
+            this.formDate.Font = new System.Drawing.Font("Berlin Sans FB", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.formDate.Location = new System.Drawing.Point(524, 22);
+            this.formDate.Name = "formDate";
+            this.formDate.Size = new System.Drawing.Size(249, 24);
+            this.formDate.TabIndex = 23;
             // 
-            // Form1
+            // ContactTracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(215)))), ((int)(((byte)(208)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.panel1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Controls.Add(this.formDate);
+            this.Controls.Add(this.btn_Finish);
+            this.Controls.Add(this.txtbox_Symptoms);
+            this.Controls.Add(this.txtbox_Travel);
+            this.Controls.Add(this.txtbox_Mobile);
+            this.Controls.Add(this.txtbox_Email);
+            this.Controls.Add(this.txtbox_Address);
+            this.Controls.Add(this.lbl_Symptoms);
+            this.Controls.Add(this.lbl_Travel);
+            this.Controls.Add(this.lbl_Mobile);
+            this.Controls.Add(this.lbl_Email);
+            this.Controls.Add(this.lbl_Address);
+            this.Controls.Add(this.txtbox_MiddleName);
+            this.Controls.Add(this.txtbox_LastName);
+            this.Controls.Add(this.txtbox_Age);
+            this.Controls.Add(this.txtbox_BirthDate);
+            this.Controls.Add(this.txtbox_Gender);
+            this.Controls.Add(this.txtbox_FirstName);
+            this.Controls.Add(this.lbl_Gender);
+            this.Controls.Add(this.lbl_BirthDate);
+            this.Controls.Add(this.lbl_Age);
+            this.Controls.Add(this.lbl_LastName);
+            this.Controls.Add(this.lbl_MiddleName);
+            this.Controls.Add(this.lbl_FirstName);
+            this.Controls.Add(this.pnl_bottom);
+            this.Name = "ContactTracingForm";
+            this.Text = "Contact Tracing";
+            this.pnl_bottom.ResumeLayout(false);
+            this.pnl_bottom.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -353,32 +353,32 @@
 
         #endregion
 
-        private Panel panel1;
-        private Button button1;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private Label label7;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private Label label8;
-        private Label label9;
-        private Label label10;
-        private Label label11;
-        private Label label12;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private TextBox textBox10;
-        private TextBox textBox11;
-        private Button button2;
-        private DateTimePicker dateTimePicker1;
+        private Panel pnl_bottom;
+        private Button btn_Admin;
+        private Label lbl_ContactTracing;
+        private Label lbl_FirstName;
+        private Label lbl_MiddleName;
+        private Label lbl_LastName;
+        private Label lbl_Age;
+        private Label lbl_BirthDate;
+        private Label lbl_Gender;
+        private TextBox txtbox_FirstName;
+        private TextBox txtbox_Gender;
+        private TextBox txtbox_BirthDate;
+        private TextBox txtbox_Age;
+        private TextBox txtbox_LastName;
+        private TextBox txtbox_MiddleName;
+        private Label lbl_Address;
+        private Label lbl_Email;
+        private Label lbl_Mobile;
+        private Label lbl_Travel;
+        private Label lbl_Symptoms;
+        private TextBox txtbox_Address;
+        private TextBox txtbox_Email;
+        private TextBox txtbox_Mobile;
+        private TextBox txtbox_Travel;
+        private TextBox txtbox_Symptoms;
+        private Button btn_Finish;
+        private DateTimePicker formDate;
     }
 }

@@ -29,7 +29,8 @@ namespace contact_tracing_revised
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            all_records listallrecords = new all_records();
+            listallrecords.ShowDialog();
         }
     }
 }

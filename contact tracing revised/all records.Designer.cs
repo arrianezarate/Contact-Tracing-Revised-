@@ -50,7 +50,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.Name = "all_records";
-            this.Text = "all_records";
+            this.Text = "All Records";
             this.ResumeLayout(false);
             this.PerformLayout();
 

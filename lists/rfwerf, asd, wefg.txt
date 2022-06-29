@@ -1,0 +1,12 @@
+First Name - asd
+Middle Name - wefg
+Last Name - rfwerf
+Age - Age
+Birth Date - Month, Date, Year
+Mobile No. - Mobile No.
+Email - @mail.com
+Gender - M/F
+Address - Street, Barangay, City. Province, Zip Code
+Traveled recently? - Yes/No
+Date - Wednesday, June 29, 2022
+Symptoms? - Yes/No

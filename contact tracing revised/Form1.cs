@@ -6,5 +6,10 @@ namespace contact_tracing_revised
         {
             InitializeComponent();
         }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

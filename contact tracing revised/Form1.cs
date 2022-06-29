@@ -115,5 +115,59 @@ namespace contact_tracing_revised
                 txtbox_LastName.ForeColor = Color.Silver;
             }
         }
+
+        private void txtbox_Age_Enter(object sender, EventArgs e)
+        {
+            if (txtbox_Age.Text == "Age")
+            {
+                txtbox_Age.Text = "";
+                txtbox_Age.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtbox_Age_Leave(object sender, EventArgs e)
+        {
+            if (txtbox_Age.Text == "")
+            {
+                txtbox_Age.Text = "Age";
+                txtbox_Age.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtbox_BirthDate_Enter(object sender, EventArgs e)
+        {
+            if (txtbox_BirthDate.Text == "Month, Date, Year")
+            {
+                txtbox_BirthDate.Text = "";
+                txtbox_BirthDate.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtbox_BirthDate_Leave(object sender, EventArgs e)
+        {
+            if (txtbox_BirthDate.Text == "")
+            {
+                txtbox_BirthDate.Text = "Month, Date, Year";
+                txtbox_BirthDate.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtbox_Gender_Enter(object sender, EventArgs e)
+        {
+            if (txtbox_Gender.Text == "M/F")
+            {
+                txtbox_Gender.Text = "";
+                txtbox_Gender.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtbox_Gender_Leave(object sender, EventArgs e)
+        {
+            if  (txtbox_Gender.Text == "")
+            {
+                txtbox_Gender.Text = "M/F";
+                txtbox_Gender.ForeColor = Color.Silver;
+            }
+        }
     }
 }

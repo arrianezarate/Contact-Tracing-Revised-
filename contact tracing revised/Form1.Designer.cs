@@ -177,6 +177,8 @@
             this.txtbox_Gender.Size = new System.Drawing.Size(75, 23);
             this.txtbox_Gender.TabIndex = 8;
             this.txtbox_Gender.Text = "M/F";
+            this.txtbox_Gender.Enter += new System.EventHandler(this.txtbox_Gender_Enter);
+            this.txtbox_Gender.Leave += new System.EventHandler(this.txtbox_Gender_Leave);
             // 
             // txtbox_BirthDate
             // 
@@ -186,6 +188,8 @@
             this.txtbox_BirthDate.Size = new System.Drawing.Size(122, 23);
             this.txtbox_BirthDate.TabIndex = 9;
             this.txtbox_BirthDate.Text = "Month, Date, Year";
+            this.txtbox_BirthDate.Enter += new System.EventHandler(this.txtbox_BirthDate_Enter);
+            this.txtbox_BirthDate.Leave += new System.EventHandler(this.txtbox_BirthDate_Leave);
             // 
             // txtbox_Age
             // 
@@ -195,6 +199,8 @@
             this.txtbox_Age.Size = new System.Drawing.Size(44, 23);
             this.txtbox_Age.TabIndex = 10;
             this.txtbox_Age.Text = "Age";
+            this.txtbox_Age.Enter += new System.EventHandler(this.txtbox_Age_Enter);
+            this.txtbox_Age.Leave += new System.EventHandler(this.txtbox_Age_Leave);
             // 
             // txtbox_LastName
             // 

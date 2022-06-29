@@ -166,8 +166,8 @@
             this.txtbox_FirstName.Size = new System.Drawing.Size(131, 23);
             this.txtbox_FirstName.TabIndex = 7;
             this.txtbox_FirstName.Text = "First Name";
-            this.txtbox_FirstName.TextChanged += new System.EventHandler(this.txtbox_FirstName_TextChanged);
             this.txtbox_FirstName.Enter += new System.EventHandler(this.txtbox_FirstName_Enter);
+            this.txtbox_FirstName.Leave += new System.EventHandler(this.txtbox_FirstName_Leave);
             // 
             // txtbox_Gender
             // 
@@ -204,6 +204,8 @@
             this.txtbox_LastName.Size = new System.Drawing.Size(131, 23);
             this.txtbox_LastName.TabIndex = 11;
             this.txtbox_LastName.Text = "Last Name";
+            this.txtbox_LastName.Enter += new System.EventHandler(this.txtbox_LastName_Enter);
+            this.txtbox_LastName.Leave += new System.EventHandler(this.txtbox_LastName_Leave);
             // 
             // txtbox_MiddleName
             // 
@@ -212,7 +214,9 @@
             this.txtbox_MiddleName.Name = "txtbox_MiddleName";
             this.txtbox_MiddleName.Size = new System.Drawing.Size(131, 23);
             this.txtbox_MiddleName.TabIndex = 12;
-            this.txtbox_MiddleName.Text = "Leave it blank if none";
+            this.txtbox_MiddleName.Text = "N/A";
+            this.txtbox_MiddleName.Enter += new System.EventHandler(this.txtbox_MiddleName_Enter);
+            this.txtbox_MiddleName.Leave += new System.EventHandler(this.txtbox_MiddleName_Leave);
             // 
             // lbl_Address
             // 

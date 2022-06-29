@@ -15,11 +15,11 @@ namespace contact_tracing_revised
         private void btn_Finish_Click(object sender, EventArgs e)
         {
             StreamWriter file = new StreamWriter(@"C:\Users\arriane\source\repos\contact tracing revised\lists\" + txtbox_LastName.Text + ", " + txtbox_FirstName.Text + ", " + txtbox_MiddleName.Text + ".txt", true);
-            file.WriteLine("First name - " + txtbox_FirstName.Text);
-            file.WriteLine("Middle name - " + txtbox_MiddleName.Text);
-            file.WriteLine("Last name - " + txtbox_LastName.Text);
+            file.WriteLine("First Name - " + txtbox_FirstName.Text);
+            file.WriteLine("Middle Name - " + txtbox_MiddleName.Text);
+            file.WriteLine("Last Name - " + txtbox_LastName.Text);
             file.WriteLine("Age - " + txtbox_Age.Text);
-            file.WriteLine("Birth date - " + txtbox_BirthDate.Text);
+            file.WriteLine("Birth Date - " + txtbox_BirthDate.Text);
             file.WriteLine("Mobile No. - " + txtbox_Mobile.Text);
             file.WriteLine("Email - " + txtbox_Email.Text);
             file.WriteLine("Gender - " + txtbox_Gender.Text);
@@ -33,9 +33,9 @@ namespace contact_tracing_revised
             MessageBox.Show("Have a good day!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
-            txtbox_FirstName.Text = "First name";
+            txtbox_FirstName.Text = "First Name";
             txtbox_FirstName.ForeColor = Color.Silver;
-            txtbox_MiddleName.Text = "Leave it blank if none";
+            txtbox_MiddleName.Text = "N/A";
             txtbox_MiddleName.ForeColor = Color.Silver;
             txtbox_LastName.Text = "Last name";
             txtbox_LastName.ForeColor = Color.Silver;
@@ -68,6 +68,51 @@ namespace contact_tracing_revised
             {
                 txtbox_FirstName.Text = "";
                 txtbox_FirstName.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtbox_FirstName_Leave(object sender, EventArgs e)
+        {
+            if (txtbox_FirstName.Text == "")
+            {
+                txtbox_FirstName.Text = "First Name";
+                txtbox_FirstName.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtbox_MiddleName_Enter(object sender, EventArgs e)
+        {
+            if (txtbox_MiddleName.Text == "N/A")
+            {
+                txtbox_MiddleName.Text = "";
+                txtbox_MiddleName.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtbox_MiddleName_Leave(object sender, EventArgs e)
+        {
+            if (txtbox_MiddleName.Text == "")
+            {
+                txtbox_MiddleName.Text = "N/A";
+                txtbox_MiddleName.ForeColor = Color.Silver;
+            }
+        }
+
+        private void txtbox_LastName_Enter(object sender, EventArgs e)
+        {
+            if (txtbox_LastName.Text == "Last Name")
+            {
+                txtbox_LastName.Text = "";
+                txtbox_LastName.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtbox_LastName_Leave(object sender, EventArgs e)
+        {
+            if (txtbox_LastName.Text == "")
+            {
+                txtbox_LastName.Text = "Last Name";
+                txtbox_LastName.ForeColor = Color.Silver;
             }
         }
     }

@@ -160,45 +160,57 @@
             // 
             // txtbox_FirstName
             // 
+            this.txtbox_FirstName.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtbox_FirstName.Location = new System.Drawing.Point(144, 64);
             this.txtbox_FirstName.Name = "txtbox_FirstName";
             this.txtbox_FirstName.Size = new System.Drawing.Size(131, 23);
             this.txtbox_FirstName.TabIndex = 7;
+            this.txtbox_FirstName.Text = "First Name";
             // 
             // txtbox_Gender
             // 
+            this.txtbox_Gender.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtbox_Gender.Location = new System.Drawing.Point(144, 266);
             this.txtbox_Gender.Name = "txtbox_Gender";
             this.txtbox_Gender.Size = new System.Drawing.Size(75, 23);
             this.txtbox_Gender.TabIndex = 8;
+            this.txtbox_Gender.Text = "M/F";
             // 
             // txtbox_BirthDate
             // 
+            this.txtbox_BirthDate.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtbox_BirthDate.Location = new System.Drawing.Point(144, 225);
             this.txtbox_BirthDate.Name = "txtbox_BirthDate";
             this.txtbox_BirthDate.Size = new System.Drawing.Size(122, 23);
             this.txtbox_BirthDate.TabIndex = 9;
+            this.txtbox_BirthDate.Text = "Month, Date, Year";
             // 
             // txtbox_Age
             // 
+            this.txtbox_Age.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtbox_Age.Location = new System.Drawing.Point(144, 182);
             this.txtbox_Age.Name = "txtbox_Age";
             this.txtbox_Age.Size = new System.Drawing.Size(44, 23);
             this.txtbox_Age.TabIndex = 10;
+            this.txtbox_Age.Text = "Age";
             // 
             // txtbox_LastName
             // 
+            this.txtbox_LastName.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtbox_LastName.Location = new System.Drawing.Point(144, 144);
             this.txtbox_LastName.Name = "txtbox_LastName";
             this.txtbox_LastName.Size = new System.Drawing.Size(131, 23);
             this.txtbox_LastName.TabIndex = 11;
+            this.txtbox_LastName.Text = "Last Name";
             // 
             // txtbox_MiddleName
             // 
+            this.txtbox_MiddleName.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtbox_MiddleName.Location = new System.Drawing.Point(144, 105);
             this.txtbox_MiddleName.Name = "txtbox_MiddleName";
             this.txtbox_MiddleName.Size = new System.Drawing.Size(131, 23);
             this.txtbox_MiddleName.TabIndex = 12;
+            this.txtbox_MiddleName.Text = "Leave it blank if none";
             // 
             // lbl_Address
             // 
@@ -257,39 +269,49 @@
             // 
             // txtbox_Address
             // 
+            this.txtbox_Address.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtbox_Address.Location = new System.Drawing.Point(410, 64);
             this.txtbox_Address.Name = "txtbox_Address";
             this.txtbox_Address.Size = new System.Drawing.Size(363, 23);
             this.txtbox_Address.TabIndex = 18;
+            this.txtbox_Address.Text = "Street, Barangay, City. Province, Zip Code";
             this.txtbox_Address.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // txtbox_Email
             // 
+            this.txtbox_Email.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtbox_Email.Location = new System.Drawing.Point(410, 105);
             this.txtbox_Email.Name = "txtbox_Email";
             this.txtbox_Email.Size = new System.Drawing.Size(184, 23);
             this.txtbox_Email.TabIndex = 19;
+            this.txtbox_Email.Text = "@mail.com";
             // 
             // txtbox_Mobile
             // 
+            this.txtbox_Mobile.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtbox_Mobile.Location = new System.Drawing.Point(410, 144);
             this.txtbox_Mobile.Name = "txtbox_Mobile";
             this.txtbox_Mobile.Size = new System.Drawing.Size(131, 23);
             this.txtbox_Mobile.TabIndex = 20;
+            this.txtbox_Mobile.Text = "Mobile No.";
             // 
             // txtbox_Travel
             // 
+            this.txtbox_Travel.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtbox_Travel.Location = new System.Drawing.Point(495, 182);
             this.txtbox_Travel.Name = "txtbox_Travel";
-            this.txtbox_Travel.Size = new System.Drawing.Size(44, 23);
+            this.txtbox_Travel.Size = new System.Drawing.Size(46, 23);
             this.txtbox_Travel.TabIndex = 21;
+            this.txtbox_Travel.Text = "Yes/No";
             // 
             // txtbox_Symptoms
             // 
+            this.txtbox_Symptoms.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtbox_Symptoms.Location = new System.Drawing.Point(623, 225);
             this.txtbox_Symptoms.Name = "txtbox_Symptoms";
             this.txtbox_Symptoms.Size = new System.Drawing.Size(44, 23);
             this.txtbox_Symptoms.TabIndex = 22;
+            this.txtbox_Symptoms.Text = "Yes/No";
             // 
             // btn_Finish
             // 

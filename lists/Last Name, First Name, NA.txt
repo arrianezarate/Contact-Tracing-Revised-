@@ -10,4 +10,3 @@ Address - Street, Barangay, City. Province, Zip Code
 Traveled recently? - Yes/No
 Date - Thursday, July 7, 2022
 Symptoms? - Yes/No
-

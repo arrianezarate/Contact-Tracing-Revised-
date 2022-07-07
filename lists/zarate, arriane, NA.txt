@@ -1,6 +1,6 @@
-First Name - First Name
+First Name - arriane
 Middle Name - NA
-Last Name - Last Name
+Last Name - zarate
 Age - Age
 Birth Date - Month, Date, Year
 Mobile No. - Mobile No.
@@ -8,6 +8,5 @@ Email - @mail.com
 Gender - M/F
 Address - Street, Barangay, City. Province, Zip Code
 Traveled recently? - Yes/No
-Date - Thursday, July 7, 2022
+Date - Thursday, June 30, 2022
 Symptoms? - Yes/No
-

@@ -1,13 +1,12 @@
-First Name - First Name
-Middle Name - NA
-Last Name - Last Name
+First Name - hello po
+Middle Name - kbgjhv
+Last Name - gcvgcv
 Age - Age
 Birth Date - Month, Date, Year
 Mobile No. - Mobile No.
 Email - @mail.com
 Gender - M/F
 Address - Street, Barangay, City. Province, Zip Code
-Traveled recently? - Yes/No
-Date - Thursday, July 7, 2022
-Symptoms? - Yes/No
-
+Traveled recently? - no
+Date - Thursday, June 30, 2022
+Symptoms? - no

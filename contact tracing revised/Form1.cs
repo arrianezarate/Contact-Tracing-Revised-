@@ -260,5 +260,10 @@ namespace contact_tracing_revised
             Admin show = new Admin();
             show.ShowDialog();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

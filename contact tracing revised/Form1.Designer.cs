@@ -55,7 +55,15 @@
             this.txtbox_Symptoms = new System.Windows.Forms.TextBox();
             this.btn_Finish = new System.Windows.Forms.Button();
             this.formDate = new System.Windows.Forms.DateTimePicker();
+            this.lbl_Cam = new System.Windows.Forms.Label();
+            this.combox_Cam = new System.Windows.Forms.ComboBox();
+            this.picbox_Cam = new System.Windows.Forms.PictureBox();
+            this.txtbox_DisplayTxt = new System.Windows.Forms.TextBox();
+            this.lbl_DisplayTxt = new System.Windows.Forms.Label();
+            this.btn_Scan = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.pnl_bottom.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picbox_Cam)).BeginInit();
             this.SuspendLayout();
             // 
             // pnl_bottom
@@ -64,9 +72,9 @@
             this.pnl_bottom.Controls.Add(this.btn_Admin);
             this.pnl_bottom.Controls.Add(this.lbl_ContactTracing);
             this.pnl_bottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnl_bottom.Location = new System.Drawing.Point(0, 367);
+            this.pnl_bottom.Location = new System.Drawing.Point(0, 781);
             this.pnl_bottom.Name = "pnl_bottom";
-            this.pnl_bottom.Size = new System.Drawing.Size(800, 83);
+            this.pnl_bottom.Size = new System.Drawing.Size(787, 83);
             this.pnl_bottom.TabIndex = 0;
             // 
             // btn_Admin
@@ -340,7 +348,7 @@
             this.btn_Finish.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(212)))), ((int)(((byte)(240)))));
             this.btn_Finish.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Finish.ForeColor = System.Drawing.Color.White;
-            this.btn_Finish.Location = new System.Drawing.Point(605, 289);
+            this.btn_Finish.Location = new System.Drawing.Point(621, 302);
             this.btn_Finish.Name = "btn_Finish";
             this.btn_Finish.Size = new System.Drawing.Size(152, 51);
             this.btn_Finish.TabIndex = 2;
@@ -356,12 +364,93 @@
             this.formDate.Size = new System.Drawing.Size(249, 24);
             this.formDate.TabIndex = 23;
             // 
+            // lbl_Cam
+            // 
+            this.lbl_Cam.AutoSize = true;
+            this.lbl_Cam.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Cam.ForeColor = System.Drawing.Color.White;
+            this.lbl_Cam.Location = new System.Drawing.Point(460, 377);
+            this.lbl_Cam.Name = "lbl_Cam";
+            this.lbl_Cam.Size = new System.Drawing.Size(61, 18);
+            this.lbl_Cam.TabIndex = 24;
+            this.lbl_Cam.Text = "Camera";
+            this.lbl_Cam.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // combox_Cam
+            // 
+            this.combox_Cam.BackColor = System.Drawing.SystemColors.Info;
+            this.combox_Cam.FormattingEnabled = true;
+            this.combox_Cam.Location = new System.Drawing.Point(460, 398);
+            this.combox_Cam.Name = "combox_Cam";
+            this.combox_Cam.Size = new System.Drawing.Size(235, 23);
+            this.combox_Cam.TabIndex = 25;
+            // 
+            // picbox_Cam
+            // 
+            this.picbox_Cam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.picbox_Cam.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.picbox_Cam.Location = new System.Drawing.Point(460, 427);
+            this.picbox_Cam.Name = "picbox_Cam";
+            this.picbox_Cam.Size = new System.Drawing.Size(285, 241);
+            this.picbox_Cam.TabIndex = 26;
+            this.picbox_Cam.TabStop = false;
+            // 
+            // txtbox_DisplayTxt
+            // 
+            this.txtbox_DisplayTxt.Location = new System.Drawing.Point(55, 427);
+            this.txtbox_DisplayTxt.Multiline = true;
+            this.txtbox_DisplayTxt.Name = "txtbox_DisplayTxt";
+            this.txtbox_DisplayTxt.Size = new System.Drawing.Size(349, 277);
+            this.txtbox_DisplayTxt.TabIndex = 27;
+            // 
+            // lbl_DisplayTxt
+            // 
+            this.lbl_DisplayTxt.AutoSize = true;
+            this.lbl_DisplayTxt.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_DisplayTxt.ForeColor = System.Drawing.Color.White;
+            this.lbl_DisplayTxt.Location = new System.Drawing.Point(55, 403);
+            this.lbl_DisplayTxt.Name = "lbl_DisplayTxt";
+            this.lbl_DisplayTxt.Size = new System.Drawing.Size(122, 18);
+            this.lbl_DisplayTxt.TabIndex = 28;
+            this.lbl_DisplayTxt.Text = "Decoded QrCode";
+            // 
+            // btn_Scan
+            // 
+            this.btn_Scan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(212)))), ((int)(((byte)(240)))));
+            this.btn_Scan.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Scan.ForeColor = System.Drawing.Color.White;
+            this.btn_Scan.Location = new System.Drawing.Point(99, 710);
+            this.btn_Scan.Name = "btn_Scan";
+            this.btn_Scan.Size = new System.Drawing.Size(265, 51);
+            this.btn_Scan.TabIndex = 29;
+            this.btn_Scan.Text = "Start Camera";
+            this.btn_Scan.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(212)))), ((int)(((byte)(240)))));
+            this.button1.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(545, 674);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(122, 46);
+            this.button1.TabIndex = 30;
+            this.button1.Text = "AutoFill";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // ContactTracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(215)))), ((int)(((byte)(208)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(787, 864);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_Scan);
+            this.Controls.Add(this.lbl_DisplayTxt);
+            this.Controls.Add(this.txtbox_DisplayTxt);
+            this.Controls.Add(this.picbox_Cam);
+            this.Controls.Add(this.combox_Cam);
+            this.Controls.Add(this.lbl_Cam);
             this.Controls.Add(this.formDate);
             this.Controls.Add(this.btn_Finish);
             this.Controls.Add(this.txtbox_Symptoms);
@@ -391,6 +480,7 @@
             this.Text = "Contact Tracing";
             this.pnl_bottom.ResumeLayout(false);
             this.pnl_bottom.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picbox_Cam)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -425,5 +515,12 @@
         private TextBox txtbox_Symptoms;
         private Button btn_Finish;
         private DateTimePicker formDate;
+        private Label lbl_Cam;
+        private ComboBox combox_Cam;
+        private PictureBox picbox_Cam;
+        private TextBox txtbox_DisplayTxt;
+        private Label lbl_DisplayTxt;
+        private Button btn_Scan;
+        private Button button1;
     }
 }
